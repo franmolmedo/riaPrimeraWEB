@@ -1,0 +1,117 @@
+/* INITIAL CONDITION FOR ALL TAGS */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, 
+code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/* CENTERING THE BODY */
+body{
+	width:800px;
+	margin: 20px auto;
+}
+/* GENERAL CSS*/
+a{
+	text-decoration:none;
+	color: #0060B6;
+}
+
+h1{
+	padding-top:25px;
+	font-size:30px;
+}
+h2{
+	font-size:20px;
+	color:#00b0f0;
+}
+h3{
+	margin-top:15px;
+	font-size:16px;
+}
+h3 span{
+	color:#0bb359;
+}
+h4 span{
+	font-style:italic;
+}
+
+
+/* NAV FLOATING LEFT */
+
+nav {
+  	float: left;
+	background:#86cfe2;
+	width:165px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	padding-right:30px;
+	height:500px;
+}
+
+nav ul{
+	margin-top:50px;
+	padding-left:30px;
+	color: #0060B6;
+}
+
+nav li {
+  	padding-left:10px;
+}
+
+/* CSS FOR SECTIONS */
+
+section{
+	width:800px;
+	background:#d7eff5;
+}
+
+
+section#personal{
+	height:160px;
+	padding-left:300px;
+	width:500px;
+	position:relative;
+	z-index: -1;
+}
+
+section#personal img{
+	width:120px;
+	height:120px;
+	position:absolute;
+	left:590px;
+	top:23px;
+	
+}
+
+section#contact{
+	clear:right;
+	height:380px;
+}
+
+section#contact ul{
+		margin-left:300px;
+		margin-right:100px;
+		border-top: medium solid;
+		padding-top:25px;
+}
+
+section#contact ul li {
+	list-style-type: none;
+	padding-bottom:5px;
+
+}
+
+section#contact ul li img {
+	width: 40px;
+	vertical-align:middle;
+	margin-right:10px;
+
+}
